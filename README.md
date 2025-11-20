@@ -30,3 +30,5 @@
 ## История изменения проекта
 - **Initial commit** -  6f1ca58c7092cedd4293dbcf07263dc732d352a0
 - **README correction** - e6de4a088fd9dd6a2e13b8c501bb94f37fb209ec
+- **README correction 2** - f24f6e75af7db918cbd85976cf99f1dc13a79c3c
+- **README correction 3: author info added** - 19ab2a4f42a2d2bddfe01bc95f46afa6c01a0454
