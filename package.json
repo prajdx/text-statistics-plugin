@@ -1,0 +1,47 @@
+{
+  "name": "text-statistics",
+  "displayName": "Text Statistics",
+  "description": "Показывает статистику текста в реальном времени",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": [
+    "onLanguage:plaintext",
+    "onLanguage:markdown",
+    "onLanguage:javascript",
+    "onLanguage:typescript",
+    "onLanguage:python",
+    "onLanguage:java",
+    "onLanguage:html",
+    "onLanguage:css"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [{
+      "command": "text-statistics.toggleStatistics",
+      "title": "Text Statistics: Включить/выключить статистику"
+    }],
+    "configuration": {
+      "title": "Text Statistics",
+      "properties": {
+        "textStatistics.showWordCount": {
+          "type": "boolean",
+          "default": true,
+          "description": "Показывать количество слов"
+        },
+        "textStatistics.showCharCount": {
+          "type": "boolean",
+          "default": true,
+          "description": "Показывать количество символов"
+        },
+        "textStatistics.showLineCount": {
+          "type": "boolean", 
+          "default": true,
+          "description": "Показывать количество строк"
+        }
+      }
+    }
+  }
+}
