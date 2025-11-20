@@ -24,4 +24,5 @@
 - Показ количества строк
 
 ## История изменения проекта
-- 6f1ca58c7092cedd4293dbcf07263dc732d352a0 **Initial commit**
+- **Initial commit** -  6f1ca58c7092cedd4293dbcf07263dc732d352a0
+- **README correction** - e6de4a088fd9dd6a2e13b8c501bb94f37fb209ec
