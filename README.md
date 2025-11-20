@@ -24,4 +24,4 @@
 - Показ количества строк
 
 ## История изменения проекта
-- 8ba9aeb3cea847b63a91ac378a2a6db758682460 **(L-03: Circle and square added)**
+- 6f1ca58c7092cedd4293dbcf07263dc732d352a0 **Initial commit**
